@@ -5,10 +5,9 @@
 # Else print "Sorry you can not watch coco"
 
 name, age=input("Enter your name and age to watch movie: ").split(",")
-name_spdate = name.find("a")
-name_cupdate = name.find("A")
+name_update = name.lower()
 age=int(age)
-if name_spdate=='a' or name_cupdate=='A' and age==0:
+if name_update.find('a') and age==10:
     print("You can watch coco movie")
 else:
     print("Sorry, you cannot watch coco movie")
