@@ -6,3 +6,6 @@
 # do not change input in int
 # pick string charector one by one and change to int
 # int(example[0]+example[1]....+example[n])
+
+number = input("Enter number more than one digit: ")
+print(number[1])
