@@ -8,4 +8,9 @@
 # int(example[0]+example[1]....+example[n])
 
 number = input("Enter number more than one digit: ")
-print(number[1])
+total = 0
+i = 0
+while i < len(number):
+    total += int(number[i])
+    i += 1
+print(total)

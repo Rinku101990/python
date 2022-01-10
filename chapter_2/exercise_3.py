@@ -6,7 +6,7 @@
 # user name length
 # count the charector that user inputed(bonus-case sensitive)
 
-name,text = input("enter name and search single text").split(",")
+name,text = input("enter name and search single text: ").split(",")
 print(len(name))
 print(name.count(text)) # find charector with case sentive
 # Make name,search text lower then find charector(case sensitive and insensitive
